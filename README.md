@@ -1,0 +1,1 @@
+This repository demonstrates a common but insecure and inefficient Dockerfile.  The original Dockerfile uses an outdated base image and doesn't clean up after package installations. The improved version addresses these issues using a more secure and smaller base image, cleaning up after apt-get, and handling potential errors.
